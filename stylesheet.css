@@ -1,0 +1,12 @@
+.header {
+}
+
+.center {
+	display: block;
+	margin: auto;
+}
+
+.footer {
+	text-decoration: none;
+	color: grey;
+}
