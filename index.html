@@ -5,31 +5,44 @@
 	<title>Google</title>
 </head>
 <body>
-	<div class="header">
-		<a href="https://mail.google.com/mail/?tab=wm">Gmail</a>
-		<a href="https://www.google.ca/imghp?hl=en&tab=wi&ei=zt6kWNKUGM6UjwOl7aDABw&ved=0EKouCBUoAQ">Images</a>
-		<a href="https://www.google.ca/intl/en/options/">Icon?</a>
-		<a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.ca/%3Fgfe_rd%3Dcr%26ei%3Dzd6kWNiYOcv_8AeDjZ6AAg%26gws_rd%3Dssl">Sign In</a>
+	<div class="navbar">
+		<ul>
+			<li><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
+			<li><a href="https://www.google.ca/imghp?hl=en&tab=wi&ei=zt6kWNKUGM6UjwOl7aDABw&ved=0EKouCBUoAQ">Images</a></li>
+			<li><a href="https://www.google.ca/intl/en/options/"><img src="images/google-apps-icon.png" /></a></li>
+			<li><a id="signin" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.ca/%3Fgfe_rd%3Dcr%26ei%3Dzd6kWNiYOcv_8AeDjZ6AAg%26gws_rd%3Dssl">Sign In</a></li>
+		</ul>
 	</div>
 	<div class="center">
-		<img src="https://www.google.ca/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" />
-		<form>
-			<input type="text"><br>
-			<input type="submit" value="Google Search">
-			<input type="submit" value="I'm Feeling Lucky">
-		</form>
+		<div class="image">
+			<img src="https://www.google.ca/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" />
+		</div>
+		<div class="sublogo">Canada
+		</div>
+		<div class="search">
+			<form method="GET">
+				<input id="searchbox" type="text" name="textbox"><br>
+				<input class="button" type="submit" value="Google Search">
+				<input class="button" type="submit" value="I'm Feeling Lucky">
+			</form>
+		</div>
+		<p>Google.ca offered in: <a href="https://www.google.ca/setprefs?sig=0_L5VavGJ3Rhg-U5x0vzoKu-ewlA4%3D&hl=fr&source=homepage">Francais</a>
 	</div>
 	<div class="footer">
 		<div class="footer_left">
-			<a href="https://www.google.ca/intl/en/ads/?fg=1">Advertising</a>
-			<a href="https://www.google.ca/services/?fg=1">Business</a>
-			<a href="https://www.google.ca/intl/en/about.html?fg=1">About</a>
+			<ul>
+				<li><a href="https://www.google.ca/intl/en/ads/?fg=1">Advertising</a></li>
+				<li><a href="https://www.google.ca/services/?fg=1">Business</a></li>
+				<li><a href="https://www.google.ca/intl/en/about.html?fg=1">About</a></li>
+			</ul>
 		</div>
 		<div class="footer_right">
-			<a href="https://www.google.ca/intl/en/policies/privacy/?fg=1">Privacy</a>
-			<a href="https://www.google.ca/intl/en/policies/terms/?fg=1">Terms</a>
-			<a href="https://www.google.ca/preferences?hl=en">Settings</a>
-			<a href="https://www.google.com/?gfe_rd=cr&ei=zd6kWNiYOcv_8AeDjZ6AAg&gws_rd=ssl,cr&fg=1">Use Google.com</a>
+			<ul>
+				<li><a href="https://www.google.ca/intl/en/policies/privacy/?fg=1">Privacy</a></li>
+				<li><a href="https://www.google.ca/intl/en/policies/terms/?fg=1">Terms</a></li>
+				<li><a href="https://www.google.ca/preferences?hl=en">Settings</a></li>
+				<li><a href="https://www.google.com/?gfe_rd=cr&ei=zd6kWNiYOcv_8AeDjZ6AAg&gws_rd=ssl,cr&fg=1">Use Google.com</a></li>
+			</ul>
 		</div>
 	</div>
 </body>
